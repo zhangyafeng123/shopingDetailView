@@ -13,6 +13,15 @@
 		9CDAB0E41FC2835F007D05A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDAB0E21FC2835F007D05A3 /* Main.storyboard */; };
 		9CDAB0E61FC2835F007D05A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDAB0E51FC2835F007D05A3 /* Assets.xcassets */; };
 		9CDAB0E91FC2835F007D05A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDAB0E71FC2835F007D05A3 /* LaunchScreen.storyboard */; };
+		9CDAB0F21FC28386007D05A3 /* FFTabTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB0F11FC28386007D05A3 /* FFTabTitleView.m */; };
+		9CDAB0F61FC2A2E8007D05A3 /* FFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB0F51FC2A2E8007D05A3 /* FFTableView.m */; };
+		9CDAB0F91FC2A5C4007D05A3 /* FFTabItemBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB0F81FC2A5C4007D05A3 /* FFTabItemBaseView.m */; };
+		9CDAB0FC1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB0FB1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.m */; };
+		9CDAB0FF1FC2AA47007D05A3 /* LeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB0FE1FC2AA46007D05A3 /* LeftTableView.m */; };
+		9CDAB1021FC2AA53007D05A3 /* centerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB1011FC2AA53007D05A3 /* centerTableView.m */; };
+		9CDAB1051FC2AA60007D05A3 /* RightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB1041FC2AA60007D05A3 /* RightTableView.m */; };
+		9CDAB1081FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAB1071FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.m */; };
+		9CDAB10A1FC2AEEA007D05A3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CDAB1091FC2AEEA007D05A3 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		9CDAB0E51FC2835F007D05A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CDAB0E81FC2835F007D05A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CDAB0EA1FC28360007D05A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDAB0F01FC28386007D05A3 /* FFTabTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabTitleView.h; sourceTree = "<group>"; };
+		9CDAB0F11FC28386007D05A3 /* FFTabTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabTitleView.m; sourceTree = "<group>"; };
+		9CDAB0F31FC2853E007D05A3 /* FF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FF.h; sourceTree = "<group>"; };
+		9CDAB0F41FC2A2E8007D05A3 /* FFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTableView.h; sourceTree = "<group>"; };
+		9CDAB0F51FC2A2E8007D05A3 /* FFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTableView.m; sourceTree = "<group>"; };
+		9CDAB0F71FC2A5C4007D05A3 /* FFTabItemBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabItemBaseView.h; sourceTree = "<group>"; };
+		9CDAB0F81FC2A5C4007D05A3 /* FFTabItemBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabItemBaseView.m; sourceTree = "<group>"; };
+		9CDAB0FA1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFIgnoreHeadTouchTableView.h; sourceTree = "<group>"; };
+		9CDAB0FB1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFIgnoreHeadTouchTableView.m; sourceTree = "<group>"; };
+		9CDAB0FD1FC2AA46007D05A3 /* LeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableView.h; sourceTree = "<group>"; };
+		9CDAB0FE1FC2AA46007D05A3 /* LeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableView.m; sourceTree = "<group>"; };
+		9CDAB1001FC2AA53007D05A3 /* centerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerTableView.h; sourceTree = "<group>"; };
+		9CDAB1011FC2AA53007D05A3 /* centerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerTableView.m; sourceTree = "<group>"; };
+		9CDAB1031FC2AA60007D05A3 /* RightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableView.h; sourceTree = "<group>"; };
+		9CDAB1041FC2AA60007D05A3 /* RightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableView.m; sourceTree = "<group>"; };
+		9CDAB1061FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeSimultaneouslyWithGestureRecognizerTableView.h; sourceTree = "<group>"; };
+		9CDAB1071FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeSimultaneouslyWithGestureRecognizerTableView.m; sourceTree = "<group>"; };
+		9CDAB1091FC2AEEA007D05A3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,24 @@
 			children = (
 				9CDAB0DC1FC2835F007D05A3 /* AppDelegate.h */,
 				9CDAB0DD1FC2835F007D05A3 /* AppDelegate.m */,
+				9CDAB0F31FC2853E007D05A3 /* FF.h */,
+				9CDAB0F01FC28386007D05A3 /* FFTabTitleView.h */,
+				9CDAB0F11FC28386007D05A3 /* FFTabTitleView.m */,
+				9CDAB0F41FC2A2E8007D05A3 /* FFTableView.h */,
+				9CDAB0F51FC2A2E8007D05A3 /* FFTableView.m */,
+				9CDAB0F71FC2A5C4007D05A3 /* FFTabItemBaseView.h */,
+				9CDAB0F81FC2A5C4007D05A3 /* FFTabItemBaseView.m */,
+				9CDAB0FA1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.h */,
+				9CDAB0FB1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.m */,
+				9CDAB0FD1FC2AA46007D05A3 /* LeftTableView.h */,
+				9CDAB0FE1FC2AA46007D05A3 /* LeftTableView.m */,
+				9CDAB1001FC2AA53007D05A3 /* centerTableView.h */,
+				9CDAB1011FC2AA53007D05A3 /* centerTableView.m */,
+				9CDAB1031FC2AA60007D05A3 /* RightTableView.h */,
+				9CDAB1041FC2AA60007D05A3 /* RightTableView.m */,
+				9CDAB1061FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.h */,
+				9CDAB1071FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.m */,
+				9CDAB1091FC2AEEA007D05A3 /* 1.jpg */,
 				9CDAB0DF1FC2835F007D05A3 /* ViewController.h */,
 				9CDAB0E01FC2835F007D05A3 /* ViewController.m */,
 				9CDAB0E21FC2835F007D05A3 /* Main.storyboard */,
@@ -138,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CDAB0E91FC2835F007D05A3 /* LaunchScreen.storyboard in Resources */,
+				9CDAB10A1FC2AEEA007D05A3 /* 1.jpg in Resources */,
 				9CDAB0E61FC2835F007D05A3 /* Assets.xcassets in Resources */,
 				9CDAB0E41FC2835F007D05A3 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDAB0FF1FC2AA47007D05A3 /* LeftTableView.m in Sources */,
+				9CDAB1081FC2ABE2007D05A3 /* RecognizeSimultaneouslyWithGestureRecognizerTableView.m in Sources */,
 				9CDAB0E11FC2835F007D05A3 /* ViewController.m in Sources */,
+				9CDAB1051FC2AA60007D05A3 /* RightTableView.m in Sources */,
+				9CDAB0F61FC2A2E8007D05A3 /* FFTableView.m in Sources */,
+				9CDAB0FC1FC2A8CC007D05A3 /* FFIgnoreHeadTouchTableView.m in Sources */,
 				9CDAB0DE1FC2835F007D05A3 /* AppDelegate.m in Sources */,
 				9CDAB0DB1FC2835F007D05A3 /* main.m in Sources */,
+				9CDAB0F91FC2A5C4007D05A3 /* FFTabItemBaseView.m in Sources */,
+				9CDAB0F21FC28386007D05A3 /* FFTabTitleView.m in Sources */,
+				9CDAB1021FC2AA53007D05A3 /* centerTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
